@@ -1,0 +1,508 @@
+{
+    "en-as": {
+        "description": "Training datasets for machine translation: Assamese, Bengali, Gujarati, Hindi, Kannada, Malayalam, Marathi, Oriya, Punjabi, Tamil, Telugu to English.\n",
+        "citation": "@misc{ramesh2021samanantar,\n      title={Samanantar: The Largest Publicly Available Parallel Corpora Collection for 11 Indic Languages}, \n      author={Gowtham Ramesh and Sumanth Doddapaneni and Aravinth Bheemaraj and Mayank Jobanputra and Raghavan AK and Ajitesh Sharma and Sujit Sahoo and Harshita Diddee and Mahalakshmi J and Divyanshu Kakwani and Navneet Kumar and Aswin Pradeep and Kumar Deepak and Vivek Raghavan and Anoop Kunchukuttan and Pratyush Kumar and Mitesh Shantadevi Khapra},\n      year={2021},\n      eprint={2104.05596},\n      archivePrefix={arXiv},\n      primaryClass={cs.CL}\n}\n",
+        "homepage": "https://indicnlp.ai4bharat.org/samanantar/",
+        "license": "Samanantar is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License. This license applies to datasets created as part of the project. For external datasets in the IndicGLUE benchmark, please look at the respective license terms.    \n",
+        "features": {
+            "translation": {
+                "languages": [
+                    "en",
+                    "as"
+                ],
+                "id": null,
+                "_type": "Translation"
+            }
+        },
+        "post_processed": null,
+        "supervised_keys": null,
+        "task_templates": null,
+        "builder_name": "samanantar",
+        "config_name": "en-as",
+        "version": {
+            "version_str": "1.0.0",
+            "description": null,
+            "major": 1,
+            "minor": 0,
+            "patch": 0
+        },
+        "splits": {
+            "train": {
+                "name": "train",
+                "num_bytes": 33588074,
+                "num_examples": 138353,
+                "dataset_name": "samanantar"
+            }
+        },
+        "download_checksums": {
+            "https://storage.googleapis.com/samanantar-public/V0.2/data/en2indic/en-as.zip": {
+                "num_bytes": 32481612,
+                "checksum": "278e5718534c220e038f5249c9abc36ec07892caf43b49a23a62cd9568958e3f"
+            }
+        },
+        "download_size": 32481612,
+        "post_processing_size": null,
+        "dataset_size": 33588074,
+        "size_in_bytes": 66069686
+    },
+    "en-bn": {
+        "description": "Training datasets for machine translation: Assamese, Bengali, Gujarati, Hindi, Kannada, Malayalam, Marathi, Oriya, Punjabi, Tamil, Telugu to English.\n",
+        "citation": "@misc{ramesh2021samanantar,\n      title={Samanantar: The Largest Publicly Available Parallel Corpora Collection for 11 Indic Languages}, \n      author={Gowtham Ramesh and Sumanth Doddapaneni and Aravinth Bheemaraj and Mayank Jobanputra and Raghavan AK and Ajitesh Sharma and Sujit Sahoo and Harshita Diddee and Mahalakshmi J and Divyanshu Kakwani and Navneet Kumar and Aswin Pradeep and Kumar Deepak and Vivek Raghavan and Anoop Kunchukuttan and Pratyush Kumar and Mitesh Shantadevi Khapra},\n      year={2021},\n      eprint={2104.05596},\n      archivePrefix={arXiv},\n      primaryClass={cs.CL}\n}\n",
+        "homepage": "https://indicnlp.ai4bharat.org/samanantar/",
+        "license": "Samanantar is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License. This license applies to datasets created as part of the project. For external datasets in the IndicGLUE benchmark, please look at the respective license terms.    \n",
+        "features": {
+            "translation": {
+                "languages": [
+                    "en",
+                    "bn"
+                ],
+                "id": null,
+                "_type": "Translation"
+            }
+        },
+        "post_processed": null,
+        "supervised_keys": null,
+        "task_templates": null,
+        "builder_name": "samanantar",
+        "config_name": "en-bn",
+        "version": {
+            "version_str": "1.0.0",
+            "description": null,
+            "major": 1,
+            "minor": 0,
+            "patch": 0
+        },
+        "splits": {
+            "train": {
+                "name": "train",
+                "num_bytes": 2097144670,
+                "num_examples": 8435355,
+                "dataset_name": "samanantar"
+            }
+        },
+        "download_checksums": {
+            "https://storage.googleapis.com/samanantar-public/V0.2/data/en2indic/en-bn.zip": {
+                "num_bytes": 2029655552,
+                "checksum": "09beb0a1f4b52e467470eece64f30c0c0968de6c42dbc4923849ede422308b86"
+            }
+        },
+        "download_size": 2029655552,
+        "post_processing_size": null,
+        "dataset_size": 2097144670,
+        "size_in_bytes": 4126800222
+    },
+    "en-gu": {
+        "description": "Training datasets for machine translation: Assamese, Bengali, Gujarati, Hindi, Kannada, Malayalam, Marathi, Oriya, Punjabi, Tamil, Telugu to English.\n",
+        "citation": "@misc{ramesh2021samanantar,\n      title={Samanantar: The Largest Publicly Available Parallel Corpora Collection for 11 Indic Languages}, \n      author={Gowtham Ramesh and Sumanth Doddapaneni and Aravinth Bheemaraj and Mayank Jobanputra and Raghavan AK and Ajitesh Sharma and Sujit Sahoo and Harshita Diddee and Mahalakshmi J and Divyanshu Kakwani and Navneet Kumar and Aswin Pradeep and Kumar Deepak and Vivek Raghavan and Anoop Kunchukuttan and Pratyush Kumar and Mitesh Shantadevi Khapra},\n      year={2021},\n      eprint={2104.05596},\n      archivePrefix={arXiv},\n      primaryClass={cs.CL}\n}\n",
+        "homepage": "https://indicnlp.ai4bharat.org/samanantar/",
+        "license": "Samanantar is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License. This license applies to datasets created as part of the project. For external datasets in the IndicGLUE benchmark, please look at the respective license terms.    \n",
+        "features": {
+            "translation": {
+                "languages": [
+                    "en",
+                    "gu"
+                ],
+                "id": null,
+                "_type": "Translation"
+            }
+        },
+        "post_processed": null,
+        "supervised_keys": null,
+        "task_templates": null,
+        "builder_name": "samanantar",
+        "config_name": "en-gu",
+        "version": {
+            "version_str": "1.0.0",
+            "description": null,
+            "major": 1,
+            "minor": 0,
+            "patch": 0
+        },
+        "splits": {
+            "train": {
+                "name": "train",
+                "num_bytes": 641102887,
+                "num_examples": 3019563,
+                "dataset_name": "samanantar"
+            }
+        },
+        "download_checksums": {
+            "https://storage.googleapis.com/samanantar-public/V0.2/data/en2indic/en-gu.zip": {
+                "num_bytes": 616944441,
+                "checksum": "17d46117083bc2a64fbab89aa673b7fb535398150c5e33ab9f66f6bca1ed0f56"
+            }
+        },
+        "download_size": 616944441,
+        "post_processing_size": null,
+        "dataset_size": 641102887,
+        "size_in_bytes": 1258047328
+    },
+    "en-hi": {
+        "description": "Training datasets for machine translation: Assamese, Bengali, Gujarati, Hindi, Kannada, Malayalam, Marathi, Oriya, Punjabi, Tamil, Telugu to English.\n",
+        "citation": "@misc{ramesh2021samanantar,\n      title={Samanantar: The Largest Publicly Available Parallel Corpora Collection for 11 Indic Languages}, \n      author={Gowtham Ramesh and Sumanth Doddapaneni and Aravinth Bheemaraj and Mayank Jobanputra and Raghavan AK and Ajitesh Sharma and Sujit Sahoo and Harshita Diddee and Mahalakshmi J and Divyanshu Kakwani and Navneet Kumar and Aswin Pradeep and Kumar Deepak and Vivek Raghavan and Anoop Kunchukuttan and Pratyush Kumar and Mitesh Shantadevi Khapra},\n      year={2021},\n      eprint={2104.05596},\n      archivePrefix={arXiv},\n      primaryClass={cs.CL}\n}\n",
+        "homepage": "https://indicnlp.ai4bharat.org/samanantar/",
+        "license": "Samanantar is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License. This license applies to datasets created as part of the project. For external datasets in the IndicGLUE benchmark, please look at the respective license terms.    \n",
+        "features": {
+            "translation": {
+                "languages": [
+                    "en",
+                    "hi"
+                ],
+                "id": null,
+                "_type": "Translation"
+            }
+        },
+        "post_processed": null,
+        "supervised_keys": null,
+        "task_templates": null,
+        "builder_name": "samanantar",
+        "config_name": "en-hi",
+        "version": {
+            "version_str": "1.0.0",
+            "description": null,
+            "major": 1,
+            "minor": 0,
+            "patch": 0
+        },
+        "splits": {
+            "train": {
+                "name": "train",
+                "num_bytes": 2920810482,
+                "num_examples": 8466307,
+                "dataset_name": "samanantar"
+            }
+        },
+        "download_checksums": {
+            "https://storage.googleapis.com/samanantar-public/V0.2/data/en2indic/en-hi.zip": {
+                "num_bytes": 2853073724,
+                "checksum": "819e47897ad2a190925c404178ad49e711d92b4d11a741476f7ada26cc839234"
+            }
+        },
+        "download_size": 2853073724,
+        "post_processing_size": null,
+        "dataset_size": 2920810482,
+        "size_in_bytes": 5773884206
+    },
+    "en-kn": {
+        "description": "Training datasets for machine translation: Assamese, Bengali, Gujarati, Hindi, Kannada, Malayalam, Marathi, Oriya, Punjabi, Tamil, Telugu to English.\n",
+        "citation": "@misc{ramesh2021samanantar,\n      title={Samanantar: The Largest Publicly Available Parallel Corpora Collection for 11 Indic Languages}, \n      author={Gowtham Ramesh and Sumanth Doddapaneni and Aravinth Bheemaraj and Mayank Jobanputra and Raghavan AK and Ajitesh Sharma and Sujit Sahoo and Harshita Diddee and Mahalakshmi J and Divyanshu Kakwani and Navneet Kumar and Aswin Pradeep and Kumar Deepak and Vivek Raghavan and Anoop Kunchukuttan and Pratyush Kumar and Mitesh Shantadevi Khapra},\n      year={2021},\n      eprint={2104.05596},\n      archivePrefix={arXiv},\n      primaryClass={cs.CL}\n}\n",
+        "homepage": "https://indicnlp.ai4bharat.org/samanantar/",
+        "license": "Samanantar is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License. This license applies to datasets created as part of the project. For external datasets in the IndicGLUE benchmark, please look at the respective license terms.    \n",
+        "features": {
+            "translation": {
+                "languages": [
+                    "en",
+                    "kn"
+                ],
+                "id": null,
+                "_type": "Translation"
+            }
+        },
+        "post_processed": null,
+        "supervised_keys": null,
+        "task_templates": null,
+        "builder_name": "samanantar",
+        "config_name": "en-kn",
+        "version": {
+            "version_str": "1.0.0",
+            "description": null,
+            "major": 1,
+            "minor": 0,
+            "patch": 0
+        },
+        "splits": {
+            "train": {
+                "name": "train",
+                "num_bytes": 858264327,
+                "num_examples": 4014931,
+                "dataset_name": "samanantar"
+            }
+        },
+        "download_checksums": {
+            "https://storage.googleapis.com/samanantar-public/V0.2/data/en2indic/en-kn.zip": {
+                "num_bytes": 826142137,
+                "checksum": "29e832a5c7ae9c2729a9cbc45370b370d800053f2907608c7eb1cae03f24c7e4"
+            }
+        },
+        "download_size": 826142137,
+        "post_processing_size": null,
+        "dataset_size": 858264327,
+        "size_in_bytes": 1684406464
+    },
+    "en-ml": {
+        "description": "Training datasets for machine translation: Assamese, Bengali, Gujarati, Hindi, Kannada, Malayalam, Marathi, Oriya, Punjabi, Tamil, Telugu to English.\n",
+        "citation": "@misc{ramesh2021samanantar,\n      title={Samanantar: The Largest Publicly Available Parallel Corpora Collection for 11 Indic Languages}, \n      author={Gowtham Ramesh and Sumanth Doddapaneni and Aravinth Bheemaraj and Mayank Jobanputra and Raghavan AK and Ajitesh Sharma and Sujit Sahoo and Harshita Diddee and Mahalakshmi J and Divyanshu Kakwani and Navneet Kumar and Aswin Pradeep and Kumar Deepak and Vivek Raghavan and Anoop Kunchukuttan and Pratyush Kumar and Mitesh Shantadevi Khapra},\n      year={2021},\n      eprint={2104.05596},\n      archivePrefix={arXiv},\n      primaryClass={cs.CL}\n}\n",
+        "homepage": "https://indicnlp.ai4bharat.org/samanantar/",
+        "license": "Samanantar is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License. This license applies to datasets created as part of the project. For external datasets in the IndicGLUE benchmark, please look at the respective license terms.    \n",
+        "features": {
+            "translation": {
+                "languages": [
+                    "en",
+                    "ml"
+                ],
+                "id": null,
+                "_type": "Translation"
+            }
+        },
+        "post_processed": null,
+        "supervised_keys": null,
+        "task_templates": null,
+        "builder_name": "samanantar",
+        "config_name": "en-ml",
+        "version": {
+            "version_str": "1.0.0",
+            "description": null,
+            "major": 1,
+            "minor": 0,
+            "patch": 0
+        },
+        "splits": {
+            "train": {
+                "name": "train",
+                "num_bytes": 1456393021,
+                "num_examples": 5780479,
+                "dataset_name": "samanantar"
+            }
+        },
+        "download_checksums": {
+            "https://storage.googleapis.com/samanantar-public/V0.2/data/en2indic/en-ml.zip": {
+                "num_bytes": 1410145031,
+                "checksum": "8a44539d1e4cad40586208aa83a911321bb6662f1c6b4427059a439c380f8288"
+            }
+        },
+        "download_size": 1410145031,
+        "post_processing_size": null,
+        "dataset_size": 1456393021,
+        "size_in_bytes": 2866538052
+    },
+    "en-mr": {
+        "description": "Training datasets for machine translation: Assamese, Bengali, Gujarati, Hindi, Kannada, Malayalam, Marathi, Oriya, Punjabi, Tamil, Telugu to English.\n",
+        "citation": "@misc{ramesh2021samanantar,\n      title={Samanantar: The Largest Publicly Available Parallel Corpora Collection for 11 Indic Languages}, \n      author={Gowtham Ramesh and Sumanth Doddapaneni and Aravinth Bheemaraj and Mayank Jobanputra and Raghavan AK and Ajitesh Sharma and Sujit Sahoo and Harshita Diddee and Mahalakshmi J and Divyanshu Kakwani and Navneet Kumar and Aswin Pradeep and Kumar Deepak and Vivek Raghavan and Anoop Kunchukuttan and Pratyush Kumar and Mitesh Shantadevi Khapra},\n      year={2021},\n      eprint={2104.05596},\n      archivePrefix={arXiv},\n      primaryClass={cs.CL}\n}\n",
+        "homepage": "https://indicnlp.ai4bharat.org/samanantar/",
+        "license": "Samanantar is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License. This license applies to datasets created as part of the project. For external datasets in the IndicGLUE benchmark, please look at the respective license terms.    \n",
+        "features": {
+            "translation": {
+                "languages": [
+                    "en",
+                    "mr"
+                ],
+                "id": null,
+                "_type": "Translation"
+            }
+        },
+        "post_processed": null,
+        "supervised_keys": null,
+        "task_templates": null,
+        "builder_name": "samanantar",
+        "config_name": "en-mr",
+        "version": {
+            "version_str": "1.0.0",
+            "description": null,
+            "major": 1,
+            "minor": 0,
+            "patch": 0
+        },
+        "splits": {
+            "train": {
+                "name": "train",
+                "num_bytes": 795950939,
+                "num_examples": 3288874,
+                "dataset_name": "samanantar"
+            }
+        },
+        "download_checksums": {
+            "https://storage.googleapis.com/samanantar-public/V0.2/data/en2indic/en-mr.zip": {
+                "num_bytes": 769637789,
+                "checksum": "4f2418334dfeaab012e3c97d0eb05b1d89d3c274d37cd913060fd067bf3d1822"
+            }
+        },
+        "download_size": 769637789,
+        "post_processing_size": null,
+        "dataset_size": 795950939,
+        "size_in_bytes": 1565588728
+    },
+    "en-or": {
+        "description": "Training datasets for machine translation: Assamese, Bengali, Gujarati, Hindi, Kannada, Malayalam, Marathi, Oriya, Punjabi, Tamil, Telugu to English.\n",
+        "citation": "@misc{ramesh2021samanantar,\n      title={Samanantar: The Largest Publicly Available Parallel Corpora Collection for 11 Indic Languages}, \n      author={Gowtham Ramesh and Sumanth Doddapaneni and Aravinth Bheemaraj and Mayank Jobanputra and Raghavan AK and Ajitesh Sharma and Sujit Sahoo and Harshita Diddee and Mahalakshmi J and Divyanshu Kakwani and Navneet Kumar and Aswin Pradeep and Kumar Deepak and Vivek Raghavan and Anoop Kunchukuttan and Pratyush Kumar and Mitesh Shantadevi Khapra},\n      year={2021},\n      eprint={2104.05596},\n      archivePrefix={arXiv},\n      primaryClass={cs.CL}\n}\n",
+        "homepage": "https://indicnlp.ai4bharat.org/samanantar/",
+        "license": "Samanantar is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License. This license applies to datasets created as part of the project. For external datasets in the IndicGLUE benchmark, please look at the respective license terms.    \n",
+        "features": {
+            "translation": {
+                "languages": [
+                    "en",
+                    "or"
+                ],
+                "id": null,
+                "_type": "Translation"
+            }
+        },
+        "post_processed": null,
+        "supervised_keys": null,
+        "task_templates": null,
+        "builder_name": "samanantar",
+        "config_name": "en-or",
+        "version": {
+            "version_str": "1.0.0",
+            "description": null,
+            "major": 1,
+            "minor": 0,
+            "patch": 0
+        },
+        "splits": {
+            "train": {
+                "name": "train",
+                "num_bytes": 255299409,
+                "num_examples": 990439,
+                "dataset_name": "samanantar"
+            }
+        },
+        "download_checksums": {
+            "https://storage.googleapis.com/samanantar-public/V0.2/data/en2indic/en-or.zip": {
+                "num_bytes": 247375571,
+                "checksum": "08c5ec0f257669c7575b16523a15552ec32d556692c18374c6f9c873b8eb8326"
+            }
+        },
+        "download_size": 247375571,
+        "post_processing_size": null,
+        "dataset_size": 255299409,
+        "size_in_bytes": 502674980
+    },
+    "en-pa": {
+        "description": "Training datasets for machine translation: Assamese, Bengali, Gujarati, Hindi, Kannada, Malayalam, Marathi, Oriya, Punjabi, Tamil, Telugu to English.\n",
+        "citation": "@misc{ramesh2021samanantar,\n      title={Samanantar: The Largest Publicly Available Parallel Corpora Collection for 11 Indic Languages}, \n      author={Gowtham Ramesh and Sumanth Doddapaneni and Aravinth Bheemaraj and Mayank Jobanputra and Raghavan AK and Ajitesh Sharma and Sujit Sahoo and Harshita Diddee and Mahalakshmi J and Divyanshu Kakwani and Navneet Kumar and Aswin Pradeep and Kumar Deepak and Vivek Raghavan and Anoop Kunchukuttan and Pratyush Kumar and Mitesh Shantadevi Khapra},\n      year={2021},\n      eprint={2104.05596},\n      archivePrefix={arXiv},\n      primaryClass={cs.CL}\n}\n",
+        "homepage": "https://indicnlp.ai4bharat.org/samanantar/",
+        "license": "Samanantar is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License. This license applies to datasets created as part of the project. For external datasets in the IndicGLUE benchmark, please look at the respective license terms.    \n",
+        "features": {
+            "translation": {
+                "languages": [
+                    "en",
+                    "pa"
+                ],
+                "id": null,
+                "_type": "Translation"
+            }
+        },
+        "post_processed": null,
+        "supervised_keys": null,
+        "task_templates": null,
+        "builder_name": "samanantar",
+        "config_name": "en-pa",
+        "version": {
+            "version_str": "1.0.0",
+            "description": null,
+            "major": 1,
+            "minor": 0,
+            "patch": 0
+        },
+        "splits": {
+            "train": {
+                "name": "train",
+                "num_bytes": 631276029,
+                "num_examples": 2400659,
+                "dataset_name": "samanantar"
+            }
+        },
+        "download_checksums": {
+            "https://storage.googleapis.com/samanantar-public/V0.2/data/en2indic/en-pa.zip": {
+                "num_bytes": 612069303,
+                "checksum": "0d32fbee6918290bf8c7f8e2e8758f9c9ca2be6401ca18b57549fb9290ec740d"
+            }
+        },
+        "download_size": 612069303,
+        "post_processing_size": null,
+        "dataset_size": 631276029,
+        "size_in_bytes": 1243345332
+    },
+    "en-ta": {
+        "description": "Training datasets for machine translation: Assamese, Bengali, Gujarati, Hindi, Kannada, Malayalam, Marathi, Oriya, Punjabi, Tamil, Telugu to English.\n",
+        "citation": "@misc{ramesh2021samanantar,\n      title={Samanantar: The Largest Publicly Available Parallel Corpora Collection for 11 Indic Languages}, \n      author={Gowtham Ramesh and Sumanth Doddapaneni and Aravinth Bheemaraj and Mayank Jobanputra and Raghavan AK and Ajitesh Sharma and Sujit Sahoo and Harshita Diddee and Mahalakshmi J and Divyanshu Kakwani and Navneet Kumar and Aswin Pradeep and Kumar Deepak and Vivek Raghavan and Anoop Kunchukuttan and Pratyush Kumar and Mitesh Shantadevi Khapra},\n      year={2021},\n      eprint={2104.05596},\n      archivePrefix={arXiv},\n      primaryClass={cs.CL}\n}\n",
+        "homepage": "https://indicnlp.ai4bharat.org/samanantar/",
+        "license": "Samanantar is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License. This license applies to datasets created as part of the project. For external datasets in the IndicGLUE benchmark, please look at the respective license terms.    \n",
+        "features": {
+            "translation": {
+                "languages": [
+                    "en",
+                    "ta"
+                ],
+                "id": null,
+                "_type": "Translation"
+            }
+        },
+        "post_processed": null,
+        "supervised_keys": null,
+        "task_templates": null,
+        "builder_name": "samanantar",
+        "config_name": "en-ta",
+        "version": {
+            "version_str": "1.0.0",
+            "description": null,
+            "major": 1,
+            "minor": 0,
+            "patch": 0
+        },
+        "splits": {
+            "train": {
+                "name": "train",
+                "num_bytes": 1418005951,
+                "num_examples": 5095763,
+                "dataset_name": "samanantar"
+            }
+        },
+        "download_checksums": {
+            "https://storage.googleapis.com/samanantar-public/V0.2/data/en2indic/en-ta.zip": {
+                "num_bytes": 1377236241,
+                "checksum": "e49af44c6909e01ccdfa572eb86d5f9c1618e7f6d34b297160fea903bcd1049f"
+            }
+        },
+        "download_size": 1377236241,
+        "post_processing_size": null,
+        "dataset_size": 1418005951,
+        "size_in_bytes": 2795242192
+    },
+    "en-te": {
+        "description": "Training datasets for machine translation: Assamese, Bengali, Gujarati, Hindi, Kannada, Malayalam, Marathi, Oriya, Punjabi, Tamil, Telugu to English.\n",
+        "citation": "@misc{ramesh2021samanantar,\n      title={Samanantar: The Largest Publicly Available Parallel Corpora Collection for 11 Indic Languages}, \n      author={Gowtham Ramesh and Sumanth Doddapaneni and Aravinth Bheemaraj and Mayank Jobanputra and Raghavan AK and Ajitesh Sharma and Sujit Sahoo and Harshita Diddee and Mahalakshmi J and Divyanshu Kakwani and Navneet Kumar and Aswin Pradeep and Kumar Deepak and Vivek Raghavan and Anoop Kunchukuttan and Pratyush Kumar and Mitesh Shantadevi Khapra},\n      year={2021},\n      eprint={2104.05596},\n      archivePrefix={arXiv},\n      primaryClass={cs.CL}\n}\n",
+        "homepage": "https://indicnlp.ai4bharat.org/samanantar/",
+        "license": "Samanantar is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License. This license applies to datasets created as part of the project. For external datasets in the IndicGLUE benchmark, please look at the respective license terms.    \n",
+        "features": {
+            "translation": {
+                "languages": [
+                    "en",
+                    "te"
+                ],
+                "id": null,
+                "_type": "Translation"
+            }
+        },
+        "post_processed": null,
+        "supervised_keys": null,
+        "task_templates": null,
+        "builder_name": "samanantar",
+        "config_name": "en-te",
+        "version": {
+            "version_str": "1.0.0",
+            "description": null,
+            "major": 1,
+            "minor": 0,
+            "patch": 0
+        },
+        "splits": {
+            "train": {
+                "name": "train",
+                "num_bytes": 1040732241,
+                "num_examples": 4775516,
+                "dataset_name": "samanantar"
+            }
+        },
+        "download_checksums": {
+            "https://storage.googleapis.com/samanantar-public/V0.2/data/en2indic/en-te.zip": {
+                "num_bytes": 1002524763,
+                "checksum": "9a4a9d78c62b7769fa2366b85259ac192848def00097c12004cc1a560483e0b7"
+            }
+        },
+        "download_size": 1002524763,
+        "post_processing_size": null,
+        "dataset_size": 1040732241,
+        "size_in_bytes": 2043257004
+    }
+}
